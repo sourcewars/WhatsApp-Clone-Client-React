@@ -7,7 +7,7 @@ const ChatsList = () => (
     <ul>
       {chats.map((chat) => (
         <li key={chat.id}>
-          <img src={chat.picture} />
+          <img src={chat.picture} alt="Profile"/>
           <div>{chat.name}</div>
           {chat.lastMessage && (
             <React.Fragment>
